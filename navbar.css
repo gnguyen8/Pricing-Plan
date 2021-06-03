@@ -1,0 +1,96 @@
+html {
+    font-family: 'Quicksand', sans-serif;
+}
+
+
+.navbar {
+    position: absolute;
+    width: 100%;
+    height: 5%;
+    top: 0px;
+    background: linear-gradient(90deg, rgba(155, 223, 237, 1) 39%, rgba(14, 33, 78, 1) 100%); 
+    padding: 10px 0;
+    margin-bottom: 20x;
+}
+
+.logo img {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 0;
+    left: 100px;
+}
+
+.logo-name{
+    position: absolute;
+    top: 1.4em;
+    left: 190px;
+    font-weight: 600;
+    font-size: 1.5em;
+    color: #fff; 
+
+}
+
+@media (min-width: 900px) {
+    .navbar{
+        height: 10%;
+    }
+    .logo img {
+        width: 160px;
+        height: 160px;
+    }    
+    .logo-name {
+        top: 0.81em;
+        font-size: 3.5em;
+        left: 240px;
+    }
+}
+
+.links ul {
+    list-style-type: none;  
+}
+
+.links li {
+    float: right; 
+    position: relative;
+    top: 20px;
+}
+
+.links a {
+    display: block;
+    padding: 10px 30px;
+    color: #fff;
+    font-size: 0.8em;
+    text-decoration: none;
+}
+
+.links a:hover {
+    color: #18afcf;
+}
+
+
+@media (min-width: 900px) {
+    .links li {
+    top: 20px;
+    }
+    .links a {
+    padding: 30px 50px;
+    font-size: 1.5em;
+    }
+}
+
+
+#title {
+    position: relative;
+    top: 200px;
+    left: 30px;
+    width: 100%;
+    text-align: center;
+    font-size: 1em;
+}
+
+@media (min-width: 900px) {
+    #title {
+        font-size: 4em;
+    }
+}

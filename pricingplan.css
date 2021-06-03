@@ -1,0 +1,64 @@
+html {
+    font-family: 'Quicksand', sans-serif;
+}
+
+.navbar {
+    position: absolute;
+    width: 100%;
+    height: 10%;
+    top: 0px;
+    background: linear-gradient(90deg, rgba(155, 223, 237, 1) 39%, rgba(14, 33, 78, 1) 100%); 
+    padding: 10px 0;
+    margin-bottom: 20x;
+}
+
+.logo img {
+    width: 160px;
+    height: 160px;
+    position: absolute;
+    top: 0;
+    left: 100px;
+    display:inline-block;
+}
+
+.logo-name{
+    position: absolute;
+    top: 0.81em;
+    left: 240px;
+    font-weight: 600;
+    font-size: 3.5em;
+    color: #fff; 
+
+}
+
+.links ul {
+    list-style-type: none;  
+}
+
+.links li {
+    float: right; 
+    position: relative;
+    top: 20px;
+}
+
+.links a {
+    display: block;
+    padding: 30px 50px;
+    color: #fff;
+    font-size: 1.5em;
+    text-decoration: none;
+}
+
+.links a:hover {
+    color: #18afcf;
+}
+
+#title {
+    position: relative;
+    top: 200px;
+    left: 30px;
+    width: 100%;
+    text-align: center;
+    font-size: 4em;
+}
+
